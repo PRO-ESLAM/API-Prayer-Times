@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  background-color: #322653;
+  direction: rtl;
+  font-family: "Alexandria", sans-serif;
+height: 2000px;
+  font-family: "Readex Pro", sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(301deg, rgba(2,0,36,1) 0%, rgba(83,3,148,1) 100%, rgba(39,5,87,1) 100%);
+  
+  background-repeat: no-repeat;
+}
+
+*::-webkit-scrollbar {
+  height: 0.3rem;
+  width: 1rem;
+}
+*::-webkit-scrollbar-track {
+  background-color: #322653;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #5800c4;
+}
+
+/* ///////////////////////////// */
+.mainContanet {
+  margin-top: 2rem;
+
+  border-bottom: 1px solid #5800c4;
+}
+.mainContanet .title {
+  text-align: center;
+  padding: 4rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.mainContanet .cityTitle {
+  text-align: right;
+  background: transparent;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 3.4rem;
+  color: #fff;
+}
+.mainContanet .cityTitle h2,
+h6 {
+  margin-right: 3rem;
+}
+
+.conat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.citycenter {
+  width: 270px;
+  margin: 1rem;
+}
+
+.citycenter .select {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 2rem;
+  background-color: #5800c4;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.citycenter .select option {
+  font-size: 2rem;
+}
+
+/* /////////////////////////// */
+.cards {
+   
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards .card {
+  margin: 1rem;
+  border: 1px solid #5800c4;
+  width: 14rem;
+
+  text-align: center;
+  transition: all 0.4s;
+}
+.cards .card:hover {
+  -webkit-transform: translate(20px, -10px);
+  -ms-transform: translate(10px, -10px);
+  transform: translate(10px, -10px);
+}
+.cards .card .header {
+  padding: 1rem;
+  background: linear-gradient(
+    301deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(83, 3, 148, 1) 0%,
+    rgba(39, 5, 87, 1) 100%
+  );
+}
+.cards .card .header h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+.cards .card .body {
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+}
+.cards .card .body h2 {
+  color: #370179;
+  font-size: 2rem;
+}
